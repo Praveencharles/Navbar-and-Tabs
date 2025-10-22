@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+img{
+    height: 50px;width: 50px;border-radius: 50%;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding:10px 10px;
+    gap: 1rem;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 1.5rem;
+}
+
+.links{
+    cursor: pointer;
+}
+
+.active{
+    color: #ff0000;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    gap: 1.5rem;
+    width: 400px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    gap: 2rem;
+    list-style: none;
+}
+
+ul li{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+hr{
+    width: 1px;
+    background-color: #c0c0c0;
+    height: 50px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background-color: #f8f8f8;
+    width: 300px;
+}
+
+/*      navbar - 2      */
+
+.nav2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding:10px 10px;
+    gap: 1rem;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+.symbol{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.symbol h1{
+    font-size: 1.7rem;
+}
+
+.nav2 button{
+    border: 2px solid #ff0000;
+    background-color: transparent;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 5px 20px ;
+    border-radius: 7px;
+}
+
+.nav2 button:hover{
+    background-color: #ff0000;
+    color: #fff;
+    transition: 0.3s ease all;
+}
+
+.nav3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding:10px 10px;
+    gap: 1rem;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    gap: 1rem  ;
+}
+
+.Sign-in{
+    border: 2px solid #ff0000;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 5px 20px ;
+    border-radius: 7px;
+}
+
+.Sign-up{
+    border: 2px solid #ff0000;
+    background-color: #ff0000;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 500;
+    padding: 5px 20px ;
+    border-radius: 7px;
+}
+
+.Sign-up:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.3s ease all;
+}
+
+.Sign-in:hover{
+    background-color: #ff0000;
+    color: #fff;
+    transition: 0.3s ease all;
+}
